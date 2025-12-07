@@ -283,7 +283,6 @@ const OpeningPage = ({ onNext }) => {
 
 const PhotoGallery = ({ onNext }) => {
   const photos = [
-    { src: './img/08d0391b-26f1-4d2d-8362-62327d74d8df.jpg', caption: '' },
     { src: './img/10a842b6-a1db-4bba-823c-0fe176724c69.jpg', caption: '' },
     { src: './img/14673e23-e70f-4667-a8d7-c665ce3d0ab8.jpg', caption: '' },
     { src: './img/1ab9fd41-f856-4fdf-a5bb-f964fe2662ff.jpg', caption: '' },
@@ -479,7 +478,7 @@ const BirthdayLetter = () => {
               </p>
               
               <p style={{ fontWeight: 500 }}>
-                Here's to more adventures together, more laughter, more love, and countless memories yet to be made. You're my partner, my best friend, and my everything.
+                Here's to more adventures together, more laughter, more love, and countless memories yet to be made. As I continue to show you my love and commitment, know that you mean the world to me.
               </p>
               
               <div className="bg-gradient-to-r from-pink-50 to-pink-100/50 p-4 sm:p-5 md:p-6 rounded-xl sm:rounded-2xl my-4 sm:my-6 border border-pink-200 shadow-sm">
