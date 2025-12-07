@@ -283,17 +283,17 @@ const OpeningPage = ({ onNext }) => {
 
 const PhotoGallery = ({ onNext }) => {
   const photos = [
-    { src: './img/10a842b6-a1db-4bba-823c-0fe176724c69.jpg', caption: '' },
-    { src: './img/14673e23-e70f-4667-a8d7-c665ce3d0ab8.jpg', caption: '' },
-    { src: './img/1ab9fd41-f856-4fdf-a5bb-f964fe2662ff.jpg', caption: '' },
-    { src: './img/1d3d1749-0feb-4172-a12d-f551c63922dc.jpg', caption: '' },
-    { src: './img/20d43f35-c10c-4dba-9fd0-c03f0991221f.jpg', caption: '' },
-    { src: './img/64874dc3-ce80-4f3d-ac8e-df99ff5ae3ff.jpg', caption: '' },
-    { src: './img/6870e5ec-9fc7-4426-88a9-9a6ebe87ff01.jpg', caption: '' },
-    { src: './img/7e9a8918-14f6-4154-b13e-27ce145c95af.jpg', caption: '' },
-    { src: './img/a0025808-40c4-4564-991e-75ed1882e272.jpg', caption: '' },
-    { src: './img/ae4d9222-e18c-447d-9058-c0f0f83f6561.jpg', caption: '' },
-    { src: './img/cb7aa07b-8538-492f-8972-214f01ba38ce.jpg', caption: '' }
+    { src: './img/072aa258-468f-4ce5-869a-ef11772b01c7.jpg', caption: '' },
+    { src: './img/249cecf7-ecc7-4d8c-8ae8-230c8d9c6087.jpg', caption: '' },
+    { src: './img/4a9b76f3-a37a-40db-8afb-15ad680dbfce.jpg', caption: '' },
+    { src: './img/510a9477-8e53-4225-b74d-d5afb4cb8a92.jpg', caption: '' },
+    { src: './img/584fb871-7209-4854-8ff0-085dbca9fd44.jpg', caption: '' },
+    { src: './img/621c4be5-52ff-41b9-b607-62d9071479ae.jpg', caption: '' },
+    { src: './img/75b53c74-fa50-4bd0-a0a7-683c93776225.jpg', caption: '' },
+    { src: './img/b34b5db6-787b-4de4-8a72-ef250b820fa5.jpg', caption: '' },
+    { src: './img/ba0fbbdc-6b51-4a86-af9f-c556c3a9ab6e.jpg', caption: '' },
+    { src: './img/d3c73ec1-7458-4d00-9596-bc01abf626b2.jpg', caption: '' },
+    { src: './img/f875d1fd-2e96-4a7b-a6da-46e6dae2b1ce.jpg', caption: '' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -487,7 +487,7 @@ const BirthdayLetter = () => {
                 </p>
               </div>
               
-              <p className="text-right text-pink-400 mt-6 sm:mt-8 font-semibold text-sm sm:text-base" style={{ fontWeight: 600 }}>
+              <p className="text-right text-pink-400 mt-6 sm:mt-8  font-semibold text-sm sm:text-base" style={{ fontWeight: 600 }}>
                 Forever yours,<br/>
                 <span className="text-pink-500">Your loving Sean</span>
               </p>
