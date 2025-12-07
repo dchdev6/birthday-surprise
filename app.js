@@ -420,10 +420,10 @@ const PhotoGallery = ({ onNext }) => {
           </div>
         </div>
 
-        <div className="text-center">
+        <div className="text-center mt-1 sm:mt-2">
           <button
             onClick={onNext}
-            className="bg-pink-500 text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-sm font-bold hover:shadow-lg hover:scale-105 transition-all duration-300 cute-font bounce-in"
+            className="bg-pink-500 text-white px-4 sm:px-5 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-bold hover:shadow-lg hover:scale-105 transition-all duration-300 cute-font bounce-in"
             style={{ fontWeight: 700 }}
           >
             Read My Letter
